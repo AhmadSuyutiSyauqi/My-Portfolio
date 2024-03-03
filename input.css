@@ -2,8 +2,9 @@
   font-size: 17px;
   position: relative;
   display: inline-block;
-  width: 45px;
+  width: 46px;
   height: 20px;
+ 
 }
 
 .switch input {
@@ -49,11 +50,12 @@
 .moon svg {
   fill: #73C0FC;
   position: absolute;
-  top: 4px;
+  top: 3px;
   left: 6px;
   z-index: 1;
   width: 14px;
   height: 14px;
+ 
 }
 
 /* .switch:hover */.sun svg {

@@ -95,12 +95,12 @@
 
     <main id="home">
 
-            <div class="bg-gray-900 h-[135vh] p-2 flex justify-center items-center lg:h-[100vh]">
+            <div class="bg-gray-900 h-[135vh] p-2 flex justify-center items-center lg:h-[100vh] lg:justify-between">
 
-                <div role="checkbox" class="h-[80%] w-full flex flex-wrap relative justify-center p-2 items-center ml-6">
+                <div role="checkbox" class="h-[80%] w-full flex flex-wrap relative justify-center p-2 items-center ml-6 lg:justify-evenly">
 
 
-                    <aside class="rounded-sm h-[13rem] max-w-md p-1">
+                    <aside class="rounded-sm h-[13rem] max-w-md p-1 relative">
 
                         <p class="font-bold text-[#F38B8B] text-lg ml-2 w-16">Hello !</p>
                         <h1 class="font-bold text-white pl-2 text-4xl "><span
@@ -128,9 +128,9 @@
                                     <img src="/img/github.png" alt="github" class="h-5 w-5 color">
                                 </a>
                             </div>
-                            <div class="rounded-full border-red-500 border-2 w-10 h-10 ml-4 p-2">
+                            <div class="rounded-full border-red-500 border-2 w-10 h-10 ml-4 p-2 flex justify-center items-center">
                                 <a href="https://www.linkedin.com/in/ahmad-suyuti-2babb72a0/">
-                                    <img src="/img/linkedin.png" alt="linkedin" class="h-5 w-5 color">
+                                    <img src="/img/linkedin.png" alt="linkedin" class="h-[18px] w-[18px]">
                                 </a>
                             </div>
 
@@ -138,11 +138,16 @@
 
                     </aside>
 
-                    <div class="w-[35rem] h-[35rem] flex justify-center -mt-16">
-                        <div class="h-72 w-72 rounded-full border-8 border-gray-800 flex justify-center p-2 mt-48">
-                            <div class="h-64 w-64 rounded-full bg-gray-800 p-2 flex justify-center items-center relative">
-                                <img src="/img/fotoku.webp" alt="avatar" class="absolute h-[25rem] w-[16rem] -mt-20 ml-8">
-                            </div>
+                    <div class="w-full lg:w-96 self-end px-4">
+                        <div class="relative mt-0 flex">
+                                <img src="/img/fotoku.webp" alt="avatar" class="max-w-72 mx-auto z-10">
+
+                                <span class="absolute -top-2 -left-3 lg:-left-10">
+                                    <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="#F38B8B" d="M37.8,20C27.9,39,-15.8,36.7,-27.7,16.5C-39.6,-3.7,-19.8,-41.7,2,-40.5C23.9,-39.4,47.7,1,37.8,20Z" transform="translate(100 100) scale(1.8)" />
+                                      </svg>
+                                </span>
+                            
                         </div>
                     </div>
 
@@ -190,11 +195,11 @@
 
     <section id="skills">
 
-        <div class="h-[400vh] w-full bg-gray-900 relative p-2 lg:h-layar">
+        <div class="h-[350vh] w-full bg-gray-900 relative p-2 lg:h-layar">
 
             <h1 class="font-bold text-4xl text-gray-200 text-center p-2 mt-10 mb-4">My Skills</h1>
 
-            <div class="w-full h-[80%] lg:self-center p-4 flex relative justify-center flex-wrap">
+            <div class="w-full h-[80%] p-4 flex relative justify-around flex-wrap">
 
                 <div class="w-80 h-[400px] shadow-smleft shadow-gray-950 hover:shadow-xl hover:shadow-red-600 rounded-xl p-2
 relative duration-300 lg:mr-14 lg:ml-auto mt-5">
@@ -215,6 +220,8 @@ relative duration-300 lg:mr-auto mt-14 lg:mt-5 flex justify-center items-center"
 relative duration-300 lg:mr-auto mt-14 lg:mt-16 lg:ml-20 flex justify-center items-center">
                     <img src="img/tailwind.png" alt="tailwind" class="h-[150px] w-[210px]">
                 </div>
+              
+              
 
             </div>
 
@@ -229,8 +236,11 @@ relative duration-300 lg:mr-auto mt-14 lg:mt-16 lg:ml-20 flex justify-center ite
 
             <div class="w-full h-3/4 flex items-center  justify-center">
                 <h1 class="font-bold text-8xl text-gray-200 text-center p-2 mt-10 mb-2 top-36">Coming Soon</h1>
+
+                </div>
             </div>
 
+           
 
         </div>
 
