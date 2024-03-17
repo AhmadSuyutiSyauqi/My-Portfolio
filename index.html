@@ -9,43 +9,13 @@
 
     <title>Portfolio</title>
 
-    <link rel="stylesheet" href="input.css">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                fontFamily: {
-                    'fontku': ['Myriad.'],
-                },
-                extend: {
-                    boxShadow: {
-                        'smright': '2px 4px 5px 0px rgba(0, 0, 0, 0.3)',
-                        'smcenter': '0px 5px 5px 2px rgba(0, 0, 0, 0.3)',
-                        'smleft': '-2px 4px 5px 0px rgba(0, 0, 0, 0.3)',
-                        'xl': '0px 1px 25px 8px rgba(0, 0, 0, -1)',
-
-                    },
-                    screens: {
-                        'hp': '500px',
-                        // => @media (min-width: 500px) { ... }
-                    },
-                    spacing: {
-                        '128': '32rem',
-                        'layar': '200vh',
-                        'hp': '500px',
-
-                    }
-
-                }
-            }
-        }
-    </script>
+    <link href="./src/output.css" rel="stylesheet">
 </head>
 
 <body>
     <header class=" bg-gray-900 p-2 h-18 w-full pl-2 flex fixed z-50 drop-shadow-md justify-center">
 
-        <nav class="container p-1 w-full flex lg:justify-between lg:ml-10">
+        <nav class="container p-1 w-full flex lg:justify-between lg:ml-10 md:justify-between md:ml-10">
 
 
             <div class="flex items-center w-[15%] lg:w-1/2">
@@ -95,68 +65,72 @@
 
     <main id="home">
 
-            <div class="bg-gray-900 h-[135vh] p-2 flex justify-center items-center lg:h-[100vh] lg:justify-between">
+        <div class="bg-gray-900 h-[135vh] p-2 flex justify-center items-center lg:h-[100vh] lg:justify-between">
 
-                <div role="checkbox" class="h-[80%] w-full flex flex-wrap relative justify-center p-2 items-center ml-6 lg:justify-evenly">
+            <div role="checkbox"
+                class="h-[80%] w-full flex flex-wrap relative justify-center p-2 items-center ml-6 lg:justify-evenly">
 
 
-                    <aside class="rounded-sm h-[13rem] max-w-md p-1 relative">
+                <aside class="h-[13rem] max-w-md p-1 relative">
 
-                        <p class="font-bold text-[#F38B8B] text-lg ml-2 w-16">Hello !</p>
-                        <h1 class="font-bold text-white pl-2 text-4xl "><span
-                                class="text-xl font-normal text-gray-300">Saya</span> Ahmad
-                            Suyuti Syauqi</h1>
+                    <p class="font-bold text-[#F38B8B] text-lg ml-2 w-16">Hello !</p>
+                    <h1 class="font-bold text-white pl-2 text-4xl "><span
+                            class="text-xl font-normal text-gray-300">Saya</span> Ahmad
+                        Suyuti Syauqi</h1>
 
-                        <p class="text-gray-300 p-2 text-sm">Seorang yang baru saja mempelajari bahasa pemrograman web
-                            dan
-                            yang nantinya akan menjadi programmer handal di pembuatan website maupun pembuatan software.
-                        </p>
+                    <p class="text-gray-300 p-2 text-sm">Seorang yang baru saja mempelajari bahasa pemrograman web
+                        dan
+                        yang nantinya akan menjadi programmer handal di pembuatan website maupun pembuatan software.
+                    </p>
 
-                        <div class="flex">
+                    <div class="flex">
 
-                            <div class="rounded-full border-red-500 w-10 border-2 h-10 ml-2 p-2">
-                                <a href="https://m.facebook.com/uki.boss?eav=AfaovXykOVWwwBM88iSIujTGWKSHp_sXNY4kGK_in4coQi2ilK7YlM7T6XNKTxgW-CU&paipv=0"
-                                    class=""><img src="/img/fb.png" alt="facebook" class="h-5 w-5"></a>
-                            </div>
-                            <div class="rounded-full border-red-500 border-2 w-10 h-10 ml-4 p-2">
-                                <a href="https://www.instagram.com/namakokuki/">
-                                    <img src="/img/ig.png" alt="instagram" class="h-5 w-5">
-                                </a>
-                            </div>
-                            <div class="rounded-full border-red-500 border-2 w-10 h-10 ml-4 p-2">
-                                <a href="https://github.com/AhmadSuyutiSyauqi">
-                                    <img src="/img/github.png" alt="github" class="h-5 w-5 color">
-                                </a>
-                            </div>
-                            <div class="rounded-full border-red-500 border-2 w-10 h-10 ml-4 p-2 flex justify-center items-center">
-                                <a href="https://www.linkedin.com/in/ahmad-suyuti-2babb72a0/">
-                                    <img src="/img/linkedin.png" alt="linkedin" class="h-[18px] w-[18px]">
-                                </a>
-                            </div>
-
+                        <div class="rounded-full border-red-500 w-10 border-2 h-10 ml-2 p-2">
+                            <a href="https://m.facebook.com/uki.boss?eav=AfaovXykOVWwwBM88iSIujTGWKSHp_sXNY4kGK_in4coQi2ilK7YlM7T6XNKTxgW-CU&paipv=0"
+                                class=""><img src="/img/fb.png" alt="facebook" class="h-5 w-5"></a>
+                        </div>
+                        <div class="rounded-full border-red-500 border-2 w-10 h-10 ml-4 p-2">
+                            <a href="https://www.instagram.com/namakokuki/">
+                                <img src="/img/ig.png" alt="instagram" class="h-5 w-5">
+                            </a>
+                        </div>
+                        <div class="rounded-full border-red-500 border-2 w-10 h-10 ml-4 p-2">
+                            <a href="https://github.com/AhmadSuyutiSyauqi">
+                                <img src="/img/github.png" alt="github" class="h-5 w-5 color">
+                            </a>
+                        </div>
+                        <div
+                            class="rounded-full border-red-500 border-2 w-10 h-10 ml-4 p-2 flex justify-center items-center">
+                            <a href="https://www.linkedin.com/in/ahmad-suyuti-2babb72a0/">
+                                <img src="/img/linkedin.png" alt="linkedin" class="h-[18px] w-[18px]">
+                            </a>
                         </div>
 
-                    </aside>
-
-                    <div class="w-full lg:w-96 self-end px-4">
-                        <div class="relative mt-0 flex">
-                                <img src="/img/fotoku.webp" alt="avatar" class="max-w-72 mx-auto z-10">
-
-                                <span class="absolute -top-10 -left-3 lg:-left-10">
-                                    <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill="#F38B8B" d="M37.8,20C27.9,39,-15.8,36.7,-27.7,16.5C-39.6,-3.7,-19.8,-41.7,2,-40.5C23.9,-39.4,47.7,1,37.8,20Z" transform="translate(100 100) scale(1.8)" />
-                                      </svg>
-                                </span>
-                            
-                        </div>
                     </div>
 
+                </aside>
 
+                <div class="w-full lg:w-96 self-end px-4">
+                    <div class="relative mt-0 flex">
+                        <img src="/img/fotoku.webp" alt="avatar" class="max-w-72 mx-auto z-10">
+
+                        <span class="absolute -top-10 -left-3 lg:-left-10">
+                            <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="#F38B8B"
+                                    d="M37.8,20C27.9,39,-15.8,36.7,-27.7,16.5C-39.6,-3.7,-19.8,-41.7,2,-40.5C23.9,-39.4,47.7,1,37.8,20Z"
+                                    transform="translate(100 100) scale(1.8)" />
+                            </svg>
+                        </span>
+
+                    </div>
                 </div>
+
 
             </div>
 
-      
+        </div>
+
+
     </main>
 
     <section id="about">
@@ -217,11 +191,11 @@ relative duration-300 lg:mr-auto mt-14 lg:mt-5 flex justify-center items-center"
                 </div>
 
                 <div class="w-80 h-[400px] shadow-smright shadow-gray-950 hover:shadow-xl hover:shadow-red-600 rounded-xl p-2
-relative duration-300 lg:mr-auto mt-14 lg:mt-16 lg:ml-20 flex justify-center items-center">
+relative duration-300 mt-14 flex justify-center items-center">
                     <img src="img/tailwind.png" alt="tailwind" class="h-[150px] w-[210px]">
                 </div>
-              
-              
+
+
 
             </div>
 
@@ -230,17 +204,17 @@ relative duration-300 lg:mr-auto mt-14 lg:mt-16 lg:ml-20 flex justify-center ite
 
     <section id="portfolio">
 
-        <div class="h-layar w-full bg-gray-800 relative p-2">
+        <div class="h-[40rem] w-full bg-gray-800 relative p-2">
 
             <h1 class="font-bold text-4xl text-gray-200 text-center p-2 mt-14 mb-2">Portfolio</h1>
 
             <div class="w-full h-3/4 flex items-center  justify-center">
                 <h1 class="font-bold text-8xl text-gray-200 text-center p-2 mt-10 mb-2 top-36">Coming Soon</h1>
 
-                </div>
             </div>
+        </div>
 
-           
+
 
         </div>
 
