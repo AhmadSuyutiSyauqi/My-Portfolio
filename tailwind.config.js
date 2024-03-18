@@ -2,13 +2,13 @@
 module.exports = {
     content: ["index.html"],
     theme: {
-        fontFamily: {
-            'fontku': ['Myriad.'],
-        },
+
         screens: {
             'sm': '640px',
+            // => @media (min-width: 640px) { ... }
       
             'md': '768px',
+            // => @media (min-width: 768px) { ... }
       
             'lg': '1024px',
             // => @media (min-width: 1024px) { ... }
@@ -19,6 +19,8 @@ module.exports = {
             '2xl': '1536px',
             // => @media (min-width: 1536px) { ... }
           },
+
+
         extend: {
             boxShadow: {
                 'smright': '2px 4px 5px 0px rgba(0, 0, 0, 0.3)',
@@ -27,14 +29,28 @@ module.exports = {
                 'xl': '0px 1px 25px 8px rgba(0, 0, 0, -1)',
 
             },
-     
             spacing: {
                 '128': '32rem',
                 'layar': '200vh',
                 'hp': '500px',
 
             },
+
+            colors: {
+                'primary': '#ef4444',
+                'secondary': '#f87171',
+            },
+
+            fontFamily: {
+                'madimi': ['Madimi One', 'sans-serif'],
+
+            },
+
+       
+
+
         },
     },
+
     plugins: [],
 }
