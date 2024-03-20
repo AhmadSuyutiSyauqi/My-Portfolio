@@ -10,58 +10,78 @@
     <title>Portfolio</title>
 
     <link href="./src/output.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
     <header class=" bg-gray-900 p-2 h-18 w-full pl-2 flex fixed z-50 drop-shadow-md justify-center">
 
-        <nav class="container p-1 w-full flex lg:justify-between lg:ml-10 md:justify-between md:ml-10">
+        <nav class="container p-1 w-full flex lg:justify-between lg:ml-10 md:ml-10">
 
 
             <div class="flex items-center w-[15%] lg:w-1/2">
                 <h1 class="font-bold text-primary text-2xl px-2 lg:ml-20 tracking-light pointer-events-none font-madimi tracking-wider">UKI</h1>
             </div>
 
-            <div class="w-3/4 lg:ml-2 flex justify-center p-2 ml-auto lg:w-1/2">
-                <a href="#home" class="text-white font-bold px-2 text-sm relative ml-auto lg:mr-8 after:contents-[''] after:absolute 
+            <div id="nav-menu" class="ml-2 lg:flex lg:justify-end lg:p-2 lg:ml-auto lg:w-1/2 lg:shadow-none lg:static lg:max-w-full lg:bg-transparent absolute sm:shadow-lg sm:bg-gray-900 rounded-md opacity-80 w-44 top-12 left-[24rem] hidden p-3 border-[1px] lg:border-0">
+
+                
+                <a href="#home"
+                 class="text-white font-bold lg:px-2 text-sm relative lg:mx-5 after:contents-[''] after:absolute 
             after:w-full after:h-0.5 after:bg-red-300 after:rounded-sm after:left-0 after:-bottom-1 after:mt-1 
-            after:scale-x-0 after:duration-300 hover:text-red-300 hover:after:scale-x-100">Home</a>
+            after:scale-x-0 after:duration-300 hover:text-red-300 hover:after:scale-x-100 flex w-10 mb-3 lg:flex lg:w-14 lg:mb-0">Home</a>
 
-                <a href="#about" class="text-white font-bold px-2 text-sm ml-2 relative lg:mr-8 after:contents-[''] 
+                <a href="#about"
+                    class="text-white font-bold lg:px-2 text-sm relative lg:mx-5 after:contents-[''] 
             after:absolute after:w-full after:h-0.5 after:bg-red-300 after:rounded-sm after:left-0 after:-bottom-1
-            after:scale-x-0 after:duration-300 hover:text-red-300 hover:after:scale-x-100 ">About</a>
+            after:scale-x-0 after:duration-300 hover:text-red-300 hover:after:scale-x-100 flex w-10 mb-3 lg:w-14 lg:mb-0">About</a>
 
-                <a href="#skills" class="text-white font-bold px-2 text-sm ml-2 relative lg:mr-8 after:contents-[''] 
+                <a href="#skills" class="text-white font-bold lg:px-2 text-sm relative after:contents-[''] 
             after:absolute after:w-full after:h-0.5 after:bg-red-300 after:rounded-sm after:left-0 after:-bottom-1
-            after:scale-x-0 after:duration-300 hover:text-red-300 hover:after:scale-x-100 ">Skills</a>
+            after:scale-x-0 after:duration-300 hover:text-red-300 hover:after:scale-x-100 flex w-10 mb-3 lg:w-[50px] lg:mb-0 lg:mx-5">Skills</a>
 
-                <a href="#portfolio" class="text-white font-bold px-2 text-sm ml-2 relative lg:mr-8 after:contents-[''] 
+                <a href="#portfolio"
+                    class="text-white font-bold text-sm  relative lg:after:contents-[''] 
             after:absolute after:w-full after:h-0.5 after:bg-red-300 after:rounded-sm after:left-0 after:-bottom-1
-            after:scale-x-0 after:duration-300 hover:text-red-300 hover:after:scale-x-100">Portfolio</a>
-
-                <label class="switch">
-                    <span class="sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <g fill="#ffd43b">
-                                <circle r="5" cy="12" cx="12"></circle>
-                                <path
-                                    d="m21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm-17 0h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1 -.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1 -.75.29zm-12.02 12.02a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1 -.7.24zm6.36-14.36a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm0 17a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm-5.66-14.66a1 1 0 0 1 -.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.29zm12.02 12.02a1 1 0 0 1 -.7-.29l-.66-.71a1 1 0 0 1 1.36-1.36l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.24z">
-                                </path>
-                            </g>
-                        </svg></span>
-                    <span class="moon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                            <path
-                                d="m223.5 32c-123.5 0-223.5 100.3-223.5 224s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z">
-                            </path>
-                        </svg></span>
-                    <input type="checkbox" class="input" aria-label="mode">
-                    <span class="slider"></span>
-                </label>
-
+            after:scale-x-0 after:duration-300 hover:text-red-300 hover:after:scale-x-100 flex w-16 mb-3 lg:w-[72px] lg:mb-0 lg:px-2 lg:mr-8 lg:ml-5">Portfolio</a>
+        
             </div>
 
-
         </nav>
+
+        <div class="container flex items-center justify-end lg:w-14">
+
+            <button>
+                <svg class="w-7 mr-3 lg:hidden fill-current text-gray-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                    id="hamburger">
+                    <path
+                        d="M5 7h14c.6 0 1-.4 1-1s-.4-1-1-1H5c-.6 0-1 .4-1 1s.4 1 1 1zm0 6h14c.6 0 1-.4 1-1s-.4-1-1-1H5c-.6 0-1 .4-1 1s.4 1 1 1zm0 6h14c.6 0 1-.4 1-1s-.4-1-1-1H5c-.6 0-1 .4-1 1s.4 1 1 1z">
+                    </path>
+                </svg>
+            </button>
+
+            <label class="switch">
+                <span class="sun"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="#ffd43b">
+                            <circle r="5" cy="12" cx="12"></circle>
+                            <path
+                                d="m21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm-17 0h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1 -.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1 -.75.29zm-12.02 12.02a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1 -.7.24zm6.36-14.36a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm0 17a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm-5.66-14.66a1 1 0 0 1 -.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.29zm12.02 12.02a1 1 0 0 1 -.7-.29l-.66-.71a1 1 0 0 1 1.36-1.36l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.24z">
+                            </path>
+                        </g>
+                    </svg></span>
+                <span class="moon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <path
+                            d="m223.5 32c-123.5 0-223.5 100.3-223.5 224s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z">
+                        </path>
+                    </svg></span>
+                <input type="checkbox" class="input" aria-label="mode">
+                <span class="slider"></span>
+            </label>
+        </div>
+
+
+        
     </header>
 
     <main id="home">
@@ -79,8 +99,10 @@
                             class="text-lg font-normal text-gray-300 font-mono">Saya</span> Ahmad
                         Suyuti Syauqi</h1>
 
-                    <p class="text-gray-300 p-2 text-sm">Seorang <span class="text-secondary tracking-wide font-semibold">Fullstack Developer</span> 
-                        aplikasi website dengan pengalaman selama 2 tahun untuk membuat sebuah desain website maupun melakukan pengolahan data dalam sebuah website. 
+                    <p class="text-gray-300 p-2 text-sm">Seorang <span
+                            class="text-secondary tracking-wide font-semibold">Fullstack Developer</span>
+                        aplikasi website dengan pengalaman selama 2 tahun untuk membuat sebuah desain website maupun
+                        melakukan pengolahan data dalam sebuah website.
                     </p>
 
                     <div class="flex">
@@ -114,7 +136,7 @@
                     <div class="relative mt-0 flex">
                         <img src="/img/fotoku.webp" alt="avatar" class="max-w-[17rem] mx-auto z-10">
 
-                        <span class="absolute -top-10 -left-3 lg:-left-10">
+                        <span class="absolute -top-10 mx-auto right-20 md:-left-10">
                             <svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
                                 <path fill="#F38B8B"
                                     d="M37.8,20C27.9,39,-15.8,36.7,-27.7,16.5C-39.6,-3.7,-19.8,-41.7,2,-40.5C23.9,-39.4,47.7,1,37.8,20Z"
@@ -136,21 +158,26 @@
     <section id="about">
 
         <div class="relative w-full bg-gray-800 p-3 pt-16">
-            <h1 class="font-bold text-4xl text-gray-300 text-center font-oswald pointer-events-none hover:shadow-2xl">About Me</h1>
+            <h1 class="font-bold text-4xl text-gray-300 text-center font-oswald pointer-events-none hover:shadow-2xl">
+                About Me</h1>
 
             <div class="flex justify-center">
-            <svg class="h-10 w-10 absolute top-56 fill-current text-primary hover:scale-125 duration-500 rotate-90 lg:rotate-0 mt-[9rem] lg:mt-6" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M280-160 80-360l200-200 56 57-103 103h287v80H233l103 103-56 57Zm400-240-56-57 103-103H440v-80h287L624-743l56-57 200 200-200 200Z"/>
-                <path xmlns="http://www.w3.org/2000/svg" d="M280-160 80-360l200-200 56 57-103 103h287v80H233l103 103-56 57Zm400-240-56-57 103-103H440v-80h287L624-743l56-57 200 200-200 200Z"/>
-            </svg>
-        </div>
-        
+                <svg class="h-10 w-10 absolute top-[13rem] lg:top-56 fill-current text-primary hover:scale-125 ease-in-out duration-500 rotate-90 lg:rotate-0 mt-[9rem] lg:mt-6"
+                    xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                    <path
+                        d="M280-160 80-360l200-200 56 57-103 103h287v80H233l103 103-56 57Zm400-240-56-57 103-103H440v-80h287L624-743l56-57 200 200-200 200Z" />
+                    <path xmlns="http://www.w3.org/2000/svg"
+                        d="M280-160 80-360l200-200 56 57-103 103h287v80H233l103 103-56 57Zm400-240-56-57 103-103H440v-80h287L624-743l56-57 200 200-200 200Z" />
+                </svg>
+            </div>
+
 
             <div class="lg:w-full flex lg:justify-evenly flex-wrap -mt-8 px-14">
 
                 <div class="w-[30rem] lg:h-1/3 h-2/3 p-2 mt-14 lg:mt-10">
                     <h2 class="font-semibold text-secondary text-lg mb-4">Ahmad Suyuti Syauqi</h2>
 
-                    <div class="shadow-lg rounded-md p-3 hover:shadow-2xl hover:duration-300 -ml-2 -mt-5 lg:mt-0">
+                    <div class="shadow-lg rounded-md p-3 hover:shadow-2xl hover:transition hover:duration-300 hover:ease-in-out -ml-2 -mt-5 lg:mt-0">
                         <p class="text-gray-300">itu adalah nama panjang saya, nama panggilan saya adalah Uki.
                             Saya lahir di Sumenep pada tanggal 20 Januari 2004. Setelah menempuh Tk-A, saya pindah ke
                             Surabaya
@@ -162,7 +189,7 @@
 
                 <div class="w-[30rem] lg:h-72 h-2/3 p-2 ml-auto mt-16 lg:mt-24 mb-10">
                     <h2 class="font-semibold text-secondary text-lg mb-4 text-right">Asal Pendidikan</h2>
-                    <div class=" shadow-lg rounded-md p-3 hover:shadow-2xl hover:duration-300 -mr-2 -mt-5 lg:mt-0">
+                    <div class=" shadow-lg rounded-md p-3 hover:shadow-2xl hover:transition hover:duration-300 hover:ease-in-out -mr-2 -mt-5 lg:mt-0">
                         <p class="text-gray-300 lg:ml-6 text-right">Saya menempuh Sekolah Menengah di SMK Negeri 13
                             Surabaya, kala itu
                             saya
@@ -245,6 +272,8 @@ relative duration-300 mt-14 flex justify-center items-center">
         </div>
 
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 

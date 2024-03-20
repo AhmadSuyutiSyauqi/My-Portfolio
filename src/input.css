@@ -114,3 +114,8 @@
 .input:checked + .slider:before {
   transform: translateX(30px);
 }
+
+.hamburger-active{
+  color: #73C0FC;
+}
+
