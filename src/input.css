@@ -119,3 +119,7 @@
   color: #73C0FC;
 }
 
+.navbar-fixed{
+@apply fixed z-[9999] bg-opacity-70 backdrop-blur-sm;
+
+}
